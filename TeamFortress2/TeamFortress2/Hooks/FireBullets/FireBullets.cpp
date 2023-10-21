@@ -28,7 +28,7 @@ void __fastcall FireBullets::Hook(void* ecx, void* edx, CBaseCombatWeapon* pWeap
 
 			g_Interfaces.DebugOverlay->AddLineOverlayAlpha(trace.vStartPos, trace.vEndPos, Color.r, Color.g, Color.b, Colors::BulletTracer.a, true, 5);
 		}
-		if (!pLocal->IsInValidTeam()) {
+		if (!pLocal->IsAlive()) {
 			return;
 		}
 

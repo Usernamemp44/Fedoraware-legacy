@@ -49,7 +49,7 @@ namespace FireBullets {
 		int m_iTracerFreq = 0;
 		float m_flDamage = 0.f;
 		int m_iPlayerDamage = 0;	// Damage to be used instead of m_flDamage if we hit a player
-		int m_nFlags = 0;			// See FireBulletsFlags_t
+		int m_nFlags = 0;			// See FireBulletsFlags_t |nuh uh
 		float m_flDamageForceScale = 0.f;
 		CBaseEntity* m_pAttacker = nullptr;
 		CBaseEntity* m_pAdditionalIgnoreEnt = nullptr;

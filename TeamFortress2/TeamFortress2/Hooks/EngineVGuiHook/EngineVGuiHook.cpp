@@ -34,7 +34,7 @@ void __stdcall EngineVGuiHook::Paint::Hook(int mode)
 		{
 			for (int nIndex = 0; nIndex < ICONS::TEXTURE_AMOUNT; nIndex++)
 			{
-				ICONS::ID[nIndex] = -1;
+				ICONS::ID[nIndex] = -2;
 				g_Draw.Texture(-200, 0, 18, 18, Colors::White, nIndex);
 			}
 
